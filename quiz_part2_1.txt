@@ -1,0 +1,15 @@
+1. parent is spell and child is accio and confundo
+2. Accio
+    Sumoning Charm Accio
+    No description
+    Confundus Charm Confundo
+    Causes the victim to become confused and befuddled.
+3.  The getDescription method defined within the Spell class,Accio class and Confundo class
+
+4.
+class Accio(Spell):
+    def __init__(self):
+        Spell.__init__(self, 'Accio', 'Summoning Charm')
+    Add this line to class Accio
+    def getDescription(self):
+        return 'This charm summons an object to the caster, potentially over a significant distance.'
